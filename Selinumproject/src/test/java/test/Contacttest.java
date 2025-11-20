@@ -1,0 +1,29 @@
+package test;
+
+import org.testng.annotations.Test;
+
+public class Contacttest {
+	@Test
+	public void createcontactTest() {
+		String BROWSER=System.getProperty("browser");
+		String URL=System.getProperty("url");
+		String EMAIL=System.getProperty("email");
+		String PASSWORD=System.getProperty("password");
+		System.out.println(URL);
+		System.out.println(BROWSER);
+		System.out.println(EMAIL);
+		System.out.println(PASSWORD);
+		System.out.println("execute createcontactTest");
+
+
+
+
+	}
+	
+	@Test
+	public void modifycontactTest() {
+		System.out.println("execute modifycontactTest");
+
+	}
+
+}
