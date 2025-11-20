@@ -71,7 +71,7 @@
 						version -->
 						<configuration>
 							<suiteXmlFiles>
-								<suiteXmlFile>testng_ST.xml</suiteXmlFile>>
+								<suiteXmlFile>src/test/resources/testng_ST.xml</suiteXmlFile>>
 								<!-- Add more <suiteXmlFile> tags for multiple
 								XML files -->
 							</suiteXmlFiles>
@@ -91,7 +91,7 @@
 						version -->
 						<configuration>
 							<suiteXmlFiles>
-								<suiteXmlFile>testng_RT.xml</suiteXmlFile>
+								<suiteXmlFile>src/test/resources/testng_RT.xml</suiteXmlFile>
 								<!-- Add more <suiteXmlFile> tags for multiple
 								XML files -->
 							</suiteXmlFiles>
