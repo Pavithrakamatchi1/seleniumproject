@@ -2,7 +2,7 @@ package test;
 
 import org.testng.annotations.Test;
 
-public class Orgtest {
+public class OrgTest {
 	@Test
 	public void createOrgTest() {
 		System.out.println("execute createOrgTest");

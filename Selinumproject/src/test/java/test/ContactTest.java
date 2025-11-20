@@ -2,7 +2,7 @@ package test;
 
 import org.testng.annotations.Test;
 
-public class Contacttest {
+public class ContactTest {
 	@Test
 	public void createcontactTest() {
 		String BROWSER=System.getProperty("browser");
